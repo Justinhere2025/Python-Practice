@@ -19,15 +19,23 @@ print(567 * 34 * 3)
 # Print 'hello' 32 times.
 print("hello" * 32)
 
+print("67" * 34)  # What is the result of multiplying the string '67' by 34?
+
 # -------------------------
 
 # EXTENSION
 
 # What is 2345 / 766 rounded to the nearest whole number?
 
+print(round(2345 / 766))
+
 # What is 456 to the power of 23?
 
+print(456 ** 23)
+
 # What is the remainder if you divide 345 by 32?
+
+print(345 % 32)
 
 # --------------------------
 
