@@ -8,6 +8,7 @@
 # TODO: Create an empty list called 'price_list' to hold item prices.
 
 
+
 # MAIN
 # TODO Create an infinite while loop
 
@@ -51,7 +52,7 @@
     # OPTION 4: CHECKOUT
     # -----------------------------------------------------------------
     # TODO Else check if option 4
-total_cost = sum(price_list)
+total_cost = sum("price_list")
         
         # TODO Display the results
         # TODO Exit the loop (to exit the program)
