@@ -20,19 +20,18 @@ Responses=["Yes","No","Maybe","Frick You","Ofcourse","Hell na","Absolutely","Nop
 # MAIN LOOP
 # TODO Create an infinite loop
 
-while True:
- print("This loop runs forever!")
-
-     
- 
+while True: 
+    print("This loop will run until the user types 'quit'")
     
     # TODO: Ask the user to type in a Yes/No question about their future and save it in a variable.
     #       (Or tell them to type 'quit' to leave).
 
-future_question 
+    user = input("Ask a yes/no question about your future, or type 'quit' to exit: ")
     
     # Check if the user wants to exit and break from the loop if they do.
-        
+    if user == "quit":
+        break
+
     # RANDOM REPSONSE
     # TODO: Step A: Calculate the last valid index of your list.
     #       (Remember: If a list has 5 items, the indexes are 0, 1, 2, 3, 4).
