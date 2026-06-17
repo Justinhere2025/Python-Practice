@@ -45,15 +45,15 @@ def main():
     # Trigger function based on user choice
     if choice == "1":
 
-    
+        print("i like bananaas")
         
    
         # TODO ------->>>> Call the function for calculating area here
 
     elif choice == "2":
 
-  # Call the circumference calculator function
-        # TODO ------->>>> Call the function for calculating circumference here
+        print("bananas are cool")
+
 
     else:
         print("Invalid choice. Exiting dashboard.")
