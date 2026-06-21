@@ -19,3 +19,7 @@ def get_number():
             print("That's not a number")
 
 num = get_number()
+
+print(num)
+
+
