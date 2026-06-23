@@ -1,10 +1,11 @@
 print("Greetings! This is a quiz to test your General knowledge. Don't worry if you don't know the answer to a question, just give it your best guess and then check the answer by running the code.")
-
+score = 0
 # This is the introduction to the quiz.
 
 Number_1 =input("What is the capital of France? ")
-if Number_1.lower() == "paris":    
+if Number_1.lower().strip() == "paris":    
     print("Correct! The capital of France is Paris.")
+    score += 1
 else:
     print("Incorrect! The capital of France is Paris.")
 
@@ -13,20 +14,23 @@ else:
 Number_2 = input("What is the largest planet in our solar system? ")
 if Number_2.lower() == "jupiter":
     print("Correct! The largest planet in our solar system is Jupiter.")
+    score += 1
 else:
-    print("incorrect! The largest planet in our soular system")
+    print("Incorrect! That is not the largest planet in our solar system.")
 #Second question is asking what the largest planet in the solar system is and if the user input jupiter, it will print "Correct the largest planet in our solar system is Jupiter"
 
 Number_3 = input("What is the fastest land animal? ")
-if Number_3.lower() == "cheetah":
+if Number_3.lower().strip() == "cheetah":
     print("Correct! The fastest land animal is the Cheetah.")
+    score += 1
 else:    
     print("Incorrect! The fastest land animal is the Cheetah.")
 #Third question is asking what the fastest land animal is, if the user inputs "cheetah", its going to print "Correct! The fastest land animal is the Cheetah."
 
 Number_4 = input("What is the smallest country in the world? ")
-if Number_4.lower() == "vatican city":
+if Number_4.lower().strip() == "vatican city":
     print("Correct! The smallest country in the world is Vatican City.")
+    score += 1
 else:
     print("Incorrect! The smallest country in the world is Vatican City.")
 #Fourth question is asking what the smallest country in the world is. If the user inputs "vatican city", it will print "correct! The Smallest country in the world is vatican city"
@@ -43,3 +47,6 @@ if all([Number_1.lower() == "paris", Number_2.lower() == "jupiter", Number_3.low
 else: 
     print("Don't worry, you can always try again to get all the answers correct!")
 # This code is checking if all the answers the user inputted are correct. If they are, It prints "Congratulations! You got all the answers correct!"
+
+
+# This code is calculating the user's score by checking if each answer is correct and adding 1 to the score for each correct answer. Finally, it prints the user's final score out of 5.nm
