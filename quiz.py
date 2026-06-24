@@ -58,5 +58,3 @@ while True:
             exit()
         else:
             print("Please enter 'yes' or 'no'.")
-
-# This is the final part of the code that checks the user's score and prints a message based on how many questions they got correct. If they got all 5 correct, it congratulates them. If they got none correct, it tells them they did poorly. Otherwise, it tells them how many they got correct and encourages them to try again.
